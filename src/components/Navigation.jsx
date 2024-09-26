@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import { Imagen1 } from './Imagen1';
-import { Imagen2 } from './Imagen2';
-import { Imagen3 } from './Imagen3';
-import { Imagen4 } from './Imagen4';
-import { Imagen5 } from './Imagen5';
-import { Imagen6 } from './Imagen6';
+import { Imagen1 } from './imagen1';
+import { Imagen2 } from './imagen2';
+import { Imagen3 } from './imagen3';
+import { Imagen4 } from './imagen4';
+import { Imagen5 } from './imagen5';
+import { Imagen6 } from './imagen6';
 
 export const Navigation = () => {
   return (

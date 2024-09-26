@@ -13,6 +13,8 @@ import { Navigation } from './components/Navigation';
 
 function App() {
 
+  console.log ("app component loaded");
+
   return (
     <>
       <BrowserRouter>
