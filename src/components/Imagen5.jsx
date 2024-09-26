@@ -1,14 +1,12 @@
-import imagen5 from ' ,,/assets/img/imagen5.png';
+import imagen5 from '../assets/img/imagen5.jpg'
 import PropTypes from 'prop-types';
 
-export const Imagen5 = ( className)  => {
-return (
-    <img src="Imagen5" alt="Automoviles de Lujo" 
-  className= {"props.classname"} />
+export const Imagen5 = ({ className}) => {
+  return (
+     <img src={imagen5} alt="paisajes del mundo" 
+     className={className}/>
   )
-
 }
-
-Imagen5.PropTypes = {
-    className= Proptypes.string
+Imagen5.propTypes = {
+    className: PropTypes.string
 }
